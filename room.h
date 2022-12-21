@@ -1,18 +1,16 @@
-#pragma once
 #include <iostream>
-
 using namespace std;
 
 class ItemsInRoom
 {
 public:
-    int numberOfSomething;
-    string name;
+    int number_of_items;
+    string furniture_name;
     ItemsInRoom() {}
-    ItemsInRoom(int value, string name_)
+    ItemsInRoom(int valueitems, string furniture_name_)
     {
-        numberOfSomething = value;
-        name = name_;
+        number_of_items = valueitems;
+        furniture_name = furniture_name_;
     }
 
     void Print()
@@ -33,7 +31,7 @@ public:
         numberArr++;
     }
 
-    void Show_Items()
+    void ShowItems()
     {
         for (int i = 0; i < numberArr; i++)
         {
