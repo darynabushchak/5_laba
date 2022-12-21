@@ -15,7 +15,7 @@ public:
 
     void Print()
     {
-        cout << "Name: " << name << "    Number: " << numberOfSomething << endl;
+        cout << "Name: " << furniture_name << "    Number: " << number_of_items << endl;
     }
 };
 
