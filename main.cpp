@@ -9,11 +9,11 @@ int main()
     ItemsInRoom bed(200, "Bed");
     ItemsInRoom sofa(300, "Sofa");
     ItemsInRoom carpet(500, "Carpet");
-    Room a;
+    Room room_of_furniture;
 
-    a.ItemAdd(bed);
-    a.ItemAdd(sofa);
-    a.ItemAdd(carpet);
+    room_of_furniture.ItemAdd(bed);
+    room_of_furniture.ItemAdd(sofa);
+    room_of_furniture.ItemAdd(carpet);
 
-    a.Show_Items();
+    room_of_furniture.Show_Items();
 }
