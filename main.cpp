@@ -1,19 +1,19 @@
 #include <iostream>
-
+#include"room.h"
 using namespace std;
-#include"Header.h"
+
 
 int main()
 {
 
-    ItemsInRoom b(200, "Bed");
-    ItemsInRoom c(300, "Sofa");
-    ItemsInRoom d(500, "Carpet");
+    ItemsInRoom bed(200, "Bed");
+    ItemsInRoom sofa(300, "Sofa");
+    ItemsInRoom carpet(500, "Carpet");
     Room a;
 
-    a.ItemAdd(b);
-    a.ItemAdd(c);
-    a.ItemAdd(d);
+    a.ItemAdd(bed);
+    a.ItemAdd(sofa);
+    a.ItemAdd(carpet);
 
     a.Show_Items();
 }
